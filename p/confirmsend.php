@@ -48,8 +48,8 @@
 				die("Could not get data: " . mysql_error());
 			} else {
 				$row = $return->fetch_assoc();
-				$AccountSid = 'ACb74d4299723a3ebccc27e6eea4d6ad09'; 
-			    $AuthToken = '1d49a1996436a6c9aeeab2732ccd6c26'; 
+				$AccountSid = 'removed'; 
+			    $AuthToken = 'removed'; 
 			 
 			    $client = new Services_Twilio($AccountSid, $AuthToken);
 
